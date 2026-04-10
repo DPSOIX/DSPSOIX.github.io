@@ -1,70 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio website</title>
-</head>
-<style>
-    html, body {
-        height : 100%;
-        margin : 0;
-    }
-    body {
-        background-image: url("https://i.imgur.com/DIiNXmV.jpeg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .front-sentence {
-        text-align: center;
-        color: rgb(250, 6, 6);
-    }
-    .bottom-sentence {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-.linkedin-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-
-    background-color: #0077b5;
-    color: white;
-    padding: 12px 20px;
-    font-size: 16px;
-
-    border: none;
-    border-radius: 8px;
-    text-decoration: none;
-
-    cursor: pointer;
-}
-
-.linkedin-btn img {
-    width: 20px;
-    height: 20px;
-}
-
-.linkedin-btn:hover {
-    background-color: #005582;
-}
-</style>
-<body>
-    <h3 class="front-sentence">
-        Welcome to my website my name is Carter
-    </h3>
-
-    <div style="text-align:center; margin-top:20px;">
-        <a href="https://www.linkedin.com/in/carter-saltzmann-a258483a7/" target="_blank" class="linkedin-btn">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">
-            Visit My LinkedIn
-        </a>
-    </div>
-</body>
   <style>
     html {
       scroll-behavior: smooth;
@@ -104,6 +40,7 @@
       color: white;
     }
 
+    /* 📜 ALL SECTIONS */
     section {
       min-height: 100vh;
       display: flex;
@@ -124,7 +61,8 @@
       border-bottom: 2px solid #16F529;
       padding-bottom: 8px;
     }
-    
+
+    /* 👋 WELCOME */
     #welcome {
       background: rgba(0, 0, 0, 0.5);
     }
@@ -141,6 +79,7 @@
       margin-top: 0;
     }
 
+    /* 🏅 CERTIFICATE */
     .cert-img {
       width: 60%;
       max-width: 700px;
@@ -201,18 +140,21 @@
 
 <body>
 
+  <!-- 🧭 NAVBAR -->
   <nav>
     <a href="#welcome">Home</a>
     <a href="#achievements">Achievements</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
-  
+
+  <!-- 👋 WELCOME -->
   <section id="welcome">
     <h1 class="front-page">Hello, Welcome to My Portfolio</h1>
     <p class="front-page-sub">Aspiring Developer · HTML · CSS · C# · Python</p>
   </section>
 
+  <!-- 🏅 ACHIEVEMENTS -->
   <section id="achievements">
     <h2>Achievements</h2>
     <h3>IT Specialist — Python Certified</h3>
@@ -227,6 +169,7 @@
     <a href="https://imgur.com/a/D93rK5F" target="_blank" class="cert-link"></a>
   </section>
 
+  <!-- 💡 PROJECTS -->
   <section id="projects">
     <h2>Projects</h2>
     <p>
@@ -237,6 +180,7 @@
     </p>
   </section>
 
+  <!-- 📱 CONTACT -->
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: Saltzmanncarter@gmail.com</p>
