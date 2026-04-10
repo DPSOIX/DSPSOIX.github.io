@@ -65,3 +65,189 @@
         </a>
     </div>
 </body>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-image: url("https://t3.ftcdn.net/jpg/03/85/05/34/360_F_385053443_d08ZGVPY2tN5EaIK5Cngob9Dp4RHunKN.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+    /* 🧭 NAVBAR */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: black;
+      padding: 12px 0;
+      text-align: center;
+      z-index: 999;
+    }
+
+    nav a {
+      color: #16F529;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 80px 20px 40px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #16F529;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #16F529;
+      padding-bottom: 8px;
+    }
+    
+    #welcome {
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .front-page {
+      color: #16F529;
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    .front-page-sub {
+      color: #cccccc;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
+
+    .cert-img {
+      width: 60%;
+      max-width: 700px;
+      border: 3px solid #16F529;
+      border-radius: 10px;
+      margin-top: 20px;
+      transition: transform 0.3s;
+    }
+
+    .cert-img:hover {
+      transform: scale(1.02);
+    }
+
+    .cert-score {
+      color: #16F529;
+      font-size: 1.1rem;
+      margin-top: 12px;
+    }
+
+    .cert-link {
+      color: #16F529;
+      font-size: 0.9rem;
+      margin-top: 6px;
+      text-decoration: none;
+    }
+
+    .cert-link:hover {
+      text-decoration: underline;
+    }
+
+    /* 💡 PROJECTS */
+    #projects p {
+      max-width: 600px;
+      line-height: 1.8;
+      font-size: 1rem;
+      color: #dddddd;
+    }
+
+    /* 📱 CONTACT */
+    #contact p {
+      margin: 6px 0;
+      font-size: 1rem;
+    }
+
+    #contact a {
+      color: #16F529;
+      text-decoration: none;
+      font-size: 1rem;
+      display: block;
+      margin: 8px 0;
+    }
+
+    #contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#welcome">Home</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <section id="welcome">
+    <h1 class="front-page">Hello, Welcome to My Portfolio</h1>
+    <p class="front-page-sub">Aspiring Developer · HTML · CSS · C# · Python</p>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <h3>IT Specialist — Python Certified</h3>
+    <a href="https://imgur.com/a/q9DMTdn" target="_blank">
+      <img
+        src="https://i.imgur.com/XXXXXXX.png"
+        alt="IT Specialist Python Certificate"
+        class="cert-img"
+      />
+    </a>
+    <p class="cert-score">Score: 840 / 1000</p>
+    <a href="https://imgur.com/a/D93rK5F" target="_blank" class="cert-link"></a>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>
+      This website is one of my ongoing projects. Alongside learning and certifying in
+      HTML, CSS, C#, and Python, I am looking to build websites and games that are both
+      useful and enjoyable. I am actively seeking opportunities in the industry —
+      any openings or collaborations are greatly appreciated.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: Saltzmanncarter@gmail.com</p>
+    <a href="mailto:Saltzmanncarter@gmail.com">Send me an email</a>
+    <a href="https://www.linkedin.com/in/carter-saltzmann-a258483a7/" target="_blank">
+      LinkedIn Profile
+    </a>
+    <a href="https://docs.google.com/document/d/12z4Pk15mgmZYh4ApvTiF9uJD0skVr4FXQdFm-mf-k5s/" target="_blank">
+  View My Resume
+</a>
+  </section>
+
+</body>
+</html>
